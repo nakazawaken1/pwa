@@ -1,0 +1,14 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "nakazawaken1@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.20.0",
+    "web-push": "^3.6.7"
+  }
+}

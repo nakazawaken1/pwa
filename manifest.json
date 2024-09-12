@@ -1,0 +1,7 @@
+{
+  "name": "PWA example",
+  "short_name": "PWA",
+  "lang": "ja",
+  "display": "standalone",
+  "start_url": "/"
+}
