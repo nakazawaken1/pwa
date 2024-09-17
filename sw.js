@@ -8,10 +8,9 @@ self.addEventListener('push', event => {
     body: data.body
   }).then(() => {
     console.log('Notification shown');
-  })
-    .catch(error => {
-      console.error('Error showing notification:', error);
-    }));
+  }).catch(error => {
+    console.error('Error showing notification:', error);
+  }));
 });
 self.addEventListener("notificationclick", (event) => {
   console.log("On notification click: ", event.notification.tag);

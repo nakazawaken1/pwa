@@ -21,6 +21,7 @@
   app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'));
   app.get('/sw.js', (req, res) => res.sendFile(__dirname + '/sw.js'));
   app.get('/manifest.json', (req, res) => res.sendFile(__dirname + '/manifest.json'));
+  app.get('/push.mp3', (req, res) => res.sendFile(__dirname + '/push.mp3'));
   app.get('/key', (req, res) => res.send(keys.publicKey));
   app.post('/subscribe', async (req, res) => {
     const subscription = req.body;
